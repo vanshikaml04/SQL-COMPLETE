@@ -1,0 +1,12 @@
+--INNER JOIN
+
+-- INNER JOIN: combines rows from two or more tables where matching condition is true.
+-- Returns only rows where there is a match in both tables.
+-- Example: SELECT * FROM Orders INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+-- Here, only orders with matching customers will be shown.
+-- If no match, that row is excluded.
+-- Can join multiple tables using multiple INNER JOINs.
+-- Use table aliases for readability.
+-- Example: SELECT o.OrderID, c.CustomerName FROM Orders o INNER JOIN Customers c ON o.CustomerID = c.CustomerID;
+-- INNER JOIN is default when you write JOIN (JOIN means INNER JOIN if no type specified).
+-- it will ignore the null values
