@@ -1,0 +1,14 @@
+-- DATA TYPES IN SQL
+
+-- char: Fixed-length string (e.g., 'M', 'F').
+-- varchar: Variable-length string (e.g., names, emails).
+-- nchar: Fixed-length Unicode string.
+-- nvarchar: Variable-length Unicode string.
+-- int: Standard integer number.
+-- bigint: Very large integer values.
+-- tinyint: Very small integers (e.g., 0–255, like age).
+-- smallint: Small integers (e.g., age of trees/buildings).
+-- decimal(p,s): Exact number with precision; p = total digits, s = digits after decimal.
+-- date: Stores only date (YYYY-MM-DD).
+-- time: Stores only time (HH:MM:SS).
+-- datetime: Stores both date and time.
